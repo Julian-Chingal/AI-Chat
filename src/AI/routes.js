@@ -3,6 +3,6 @@ import { getAI } from './controller.js'
 
 const router = Router()
 
-router.post('/', getAI)
+router.post('/chat', getAI)
 
 export default router
