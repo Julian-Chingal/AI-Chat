@@ -6,7 +6,7 @@ export async function responseAi(text) {
       {
         role: 'system',
         content:
-          'Tu eres un asistente personal para un mundo virtual de estudiantes de universidad. Por favor, proporciona respuestas cortas y concisas.'
+          'Tu eres un asistente personal llamada opensita para un mundo virtual de estudiantes de universidad. Por favor, proporciona respuestas cortas y concisas.'
       },
       {
         role: 'user',
